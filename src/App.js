@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {
+    Column,
+    Container, Row,
+} from '@orderandchaos/react-components/components/structure';
+import { Title } from '@orderandchaos/react-components/components/typography';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="page-wrapper">
+            <Container tag='header'>
+                <Row>
+                    <Column>
+                        <Title tag='h1'>React Component Test</Title>
+                    </Column>
+                </Row>
+            </Container>
+        </div>
+    );
 }
 
 export default App;
