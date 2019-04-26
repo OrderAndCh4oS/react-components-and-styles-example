@@ -1,6 +1,6 @@
 # Order & Chaos React Components and Styles Example
 
-
+Example React app using `@orderandchaos/react-components`  and `@orderandchaos/styles`
 
 ## Available Scripts
 
