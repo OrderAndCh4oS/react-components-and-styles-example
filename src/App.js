@@ -10,6 +10,7 @@ import {
 import Typography from './examples/Typography';
 import Forms from './examples/Forms';
 import Grid from './examples/Grid';
+import Buttons from './examples/Buttons';
 
 function App() {
     return (
@@ -34,6 +35,11 @@ function App() {
                 <Row>
                     <Column className='border--bottom'>
                         <Forms/>
+                    </Column>
+                </Row>
+                <Row>
+                    <Column className='border--bottom'>
+                        <Buttons/>
                     </Column>
                 </Row>
                 <Row>

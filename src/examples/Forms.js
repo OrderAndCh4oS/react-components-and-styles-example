@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import {
+    Title,
     Input,
     Select,
     TextArea,
@@ -9,7 +10,7 @@ import {
 
 const Forms = () =>
     <Fragment>
-        <h2 className='border--bottom'>Forms</h2>
+        <Title tag='h2' className='border--bottom'>Forms</Title>
         <Input
             type='text' name='text' label='Text Field' placeholder='Enter text'
         />

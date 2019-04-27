@@ -10,7 +10,7 @@ import {
 
 const Typography = () =>
     <Fragment>
-        <h2 className='border--bottom'>Typography</h2>
+        <Title tag='h2' className='border--bottom'>Typography</Title>
         <Pretitle>Pretitle</Pretitle>
         <Title tag='h2'>Title</Title>
         <IntroText>
