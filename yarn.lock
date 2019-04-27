@@ -1067,18 +1067,18 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@orderandchaos/react-components@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@orderandchaos/react-components/-/react-components-0.4.2.tgz#36d51fe75b84e079e288f94d235476bf14b44a9a"
-  integrity sha512-aEf3uZsdn2yXtaSuQU0MFXWg6MjOZdt7xuRNtxTe+bQrniyqdVDGYT4YB9Cdlj4u8jvY98b7igp8c6kTjuyXxw==
+"@orderandchaos/react-components@^0.5.1":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@orderandchaos/react-components/-/react-components-0.5.3.tgz#74398c6c9dbe33af754f5aec170365e59008e030"
+  integrity sha512-suUoMI0FhFHe4PHG6EkZk/T7n/Al5y8h1VTaAjeChAPfrbALuzVDymta0dysIppNVr9AbT2Rd8zR9+UO5DOUng==
   dependencies:
     "@orderandchaos/styles" "^1.0.1"
     rc-slider "^8.6.9"
 
-"@orderandchaos/styles@^1.0.1", "@orderandchaos/styles@^1.0.5":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@orderandchaos/styles/-/styles-1.0.6.tgz#51530cf12c7cb30ba681dbff7b67f8a50b492276"
-  integrity sha512-a26ITCvMBRaw5cjmIfxSHJmgF+/R1JmwbYjvC6zCjGUFyTzBC7S/Mwor+e2BkVpnm0qdeXaFGbFdoJOMT71ZaA==
+"@orderandchaos/styles@^1.0.1", "@orderandchaos/styles@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@orderandchaos/styles/-/styles-1.9.0.tgz#6c9a13918e2ac4182e4e94356429dd872ad21069"
+  integrity sha512-yCKuETkKr2+nFvq9oNMvBciH68Kd+lbbDhZttBmJxwfEge0hOzABcBDcuNTv9/oa/rX4jtuHdZNDMwbjdLxBiA==
   dependencies:
     modularscale-sass "^3.0.8"
     node-sass "^4.11.0"

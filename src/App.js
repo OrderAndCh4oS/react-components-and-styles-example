@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.scss';
 import {
+    BlockQuote,
+    Citation,
     Column,
     Container,
     ContainerFullWidth,
     IntroText,
+    Pretitle,
     Row,
     Text,
     Title,
@@ -27,7 +30,8 @@ function App() {
             <Container tag='article' className='border--bottom'>
                 <Row>
                     <Column className='padding-bottom--none'>
-                        <Title tag='h2'>Typography</Title>
+                        <Pretitle>Pretitle</Pretitle>
+                        <Title tag='h2'>Title</Title>
                         <IntroText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nam vestibulum tortor in ante pulvinar
@@ -47,6 +51,19 @@ function App() {
                             sollicitudin ac lacinia in, luctus in ex. Curabitur
                             in convallis magna, ut lacinia enim.
                         </Text>
+                        <BlockQuote>
+                            <Text>
+                                Vel agam prima probatus ea. Eos ut aeterno
+                                sententiae, nec eu enim quodsi dissentiunt, has
+                                eius facilis denique cu. Tation tantas ut qui,
+                                an vis aeque abhorreant. Cu iuvaret recusabo
+                                qui. Eum ex quot theophrastus, fugit verear eos
+                                et.
+                            </Text>
+                            <Citation>
+                                <cite>Title of Work</cite> by Author Name
+                            </Citation>
+                        </BlockQuote>
                         <Text className='margin-bottom--none'>
                             Maecenas in tincidunt dui, aliquet gravida augue.
                             Aenean sit amet tempor nunc. Nulla volutpat est leo,
