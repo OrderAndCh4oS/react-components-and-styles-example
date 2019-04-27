@@ -89,7 +89,7 @@ const Grid = () =>
                 </Panel>
             </Column>
         </Row>
-        <Title tag='h3'>Push</Title>
+        <Title tag='h3' className='border--bottom'>Push</Title>
         <Row>
             <Column span={['1']} push={['1']}>
                 <Panel>
