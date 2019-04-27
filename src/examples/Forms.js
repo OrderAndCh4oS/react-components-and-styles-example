@@ -7,7 +7,7 @@ import {
     Slider
 } from '@orderandchaos/react-components';
 
-const FormExample = () =>
+const Forms = () =>
     <Fragment>
         <h2 className='border--bottom'>Forms</h2>
         <Input
@@ -87,4 +87,4 @@ const FormExample = () =>
         />
     </Fragment>;
 
-export default FormExample;
+export default Forms;

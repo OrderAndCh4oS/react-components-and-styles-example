@@ -8,7 +8,7 @@ import {
     Title,
 } from '@orderandchaos/react-components';
 
-const TextExample = () =>
+const Typography = () =>
     <Fragment>
         <h2 className='border--bottom'>Typography</h2>
         <Pretitle>Pretitle</Pretitle>
@@ -67,4 +67,4 @@ const TextExample = () =>
         </Text>
     </Fragment>;
 
-export default TextExample;
+export default Typography;

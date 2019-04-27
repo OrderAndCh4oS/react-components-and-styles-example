@@ -7,8 +7,9 @@ import {
     Row,
     Title,
 } from '@orderandchaos/react-components';
-import TextExample from './TextExamples';
-import FormExample from './FormExamples';
+import Typography from './examples/Typography';
+import Forms from './examples/Forms';
+import Grid from './examples/Grid';
 
 function App() {
     return (
@@ -27,12 +28,17 @@ function App() {
             <Container tag='article'>
                 <Row>
                     <Column className='border--bottom'>
-                        <TextExample/>
+                        <Typography/>
                     </Column>
                 </Row>
                 <Row>
                     <Column className='border--bottom'>
-                        <FormExample/>
+                        <Forms/>
+                    </Column>
+                </Row>
+                <Row>
+                    <Column className='border--bottom'>
+                        <Grid/>
                     </Column>
                 </Row>
             </Container>
