@@ -10,6 +10,7 @@ import {
 
 const TextExample = () =>
     <Fragment>
+        <h2 className='border--bottom'>Typography</h2>
         <Pretitle>Pretitle</Pretitle>
         <Title tag='h2'>Title</Title>
         <IntroText>
@@ -51,7 +52,7 @@ const TextExample = () =>
                 <cite>Title of Work</cite> by Author Name
             </Citation>
         </BlockQuote>
-        <Text className='margin-bottom--none'>
+        <Text>
             Maecenas in tincidunt dui, aliquet gravida augue.
             Aenean sit amet tempor nunc. Nulla volutpat est leo,
             egestas dictum odio molestie ac. Integer laoreet

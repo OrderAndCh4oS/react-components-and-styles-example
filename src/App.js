@@ -8,6 +8,7 @@ import {
     Title,
 } from '@orderandchaos/react-components';
 import TextExample from './TextExamples';
+import FormExample from './FormExamples';
 
 function App() {
     return (
@@ -16,17 +17,22 @@ function App() {
                 tag='header' className='bc--lighter-grey'
             >
                 <Row>
-                    <Column className='margin-bottom--none'>
+                    <Column className='hello margin-bottom--none'>
                         <Title tag='h1' className='margin-bottom--none'>
                             React Component Test
                         </Title>
                     </Column>
                 </Row>
             </ContainerFullWidth>
-            <Container tag='article' className='border--bottom'>
+            <Container tag='article'>
                 <Row>
-                    <Column className='padding-bottom--none'>
+                    <Column className='border--bottom'>
                         <TextExample/>
+                    </Column>
+                </Row>
+                <Row>
+                    <Column className='border--bottom'>
+                        <FormExample/>
                     </Column>
                 </Row>
             </Container>
