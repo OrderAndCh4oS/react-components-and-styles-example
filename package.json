@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@orderandchaos/react-components": "^0.5.1",
-    "@orderandchaos/styles": "^1.9.0",
+    "@orderandchaos/react-components": "^0.5.4",
+    "@orderandchaos/styles": "^1.9.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.0",
