@@ -11,6 +11,11 @@ import Typography from './examples/Typography';
 import Forms from './examples/Forms';
 import Grid from './examples/Grid';
 import Buttons from './examples/Buttons';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/pro-solid-svg-icons';
+
+library.add(fab, fas);
 
 function App() {
     return (

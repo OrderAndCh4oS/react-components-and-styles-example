@@ -2,16 +2,6 @@
   "name": "oacc-react-components-test",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@orderandchaos/react-components": "^0.5.7",
-    "@orderandchaos/styles": "^1.9.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router": "^5.0.0",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.0",
-    "webpack": "^4.29.6"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -32,5 +22,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-brands-svg-icons": "^5.8.1",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/pro-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@orderandchaos/react-components": "^0.5.7",
+    "@orderandchaos/styles": "^1.9.2",
+    "i": "^0.3.6",
+    "npm": "^6.9.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.8.1"
   }
 }
