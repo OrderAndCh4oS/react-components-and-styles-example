@@ -32,6 +32,23 @@ const Buttons = () =>
                 />}
             >Unicorn</Button>
         </Text>
+        <Text>
+            <Button
+                iconRight={<FontAwesomeIcon
+                    icon={[
+                        'fab',
+                        'apple']}
+                />}
+            >Apple</Button>
+            {' '}
+            <Button
+                iconRight={<FontAwesomeIcon
+                    icon={[
+                        'fas',
+                        'cat']}
+                />}
+            >Meow</Button>
+        </Text>
     </Fragment>
 ;
 
