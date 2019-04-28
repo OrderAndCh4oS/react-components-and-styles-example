@@ -30,7 +30,7 @@
     "@fortawesome/pro-solid-svg-icons": "^5.8.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@orderandchaos/react-components": "^0.5.7",
-    "@orderandchaos/styles": "^1.9.2",
+    "@orderandchaos/styles": "^2.0.0",
     "i": "^0.3.6",
     "npm": "^6.9.0",
     "react": "^16.8.6",

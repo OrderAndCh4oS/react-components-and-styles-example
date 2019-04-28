@@ -1129,10 +1129,10 @@
     modularscale-sass "^3.0.8"
     node-sass "^4.11.0"
 
-"@orderandchaos/styles@^1.9.2":
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/@orderandchaos/styles/-/styles-1.9.6.tgz#9d5c827d5590ad6b8f9dd7cda1470736a987e3cf"
-  integrity sha512-G2xbcivbo+k3k/8oBmVUK1ydMhPRXKj7LiSSCUFHpXAYr+418OA8Pe0bxjBdNcVz17ZJBsPCb8zkCJgxlbR8NQ==
+"@orderandchaos/styles@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@orderandchaos/styles/-/styles-2.0.0.tgz#9f825ff795ea385ee3a70ed1116f6b8da792915f"
+  integrity sha512-b34o7sNhpvTaSB2kKfvmU/mwmect/anloc8uZW0VQzG02+PQWTfd0hOFCjqspCXwzoGbp/NFluFgBtZDVp0W2w==
   dependencies:
     modularscale-sass "^3.0.8"
     node-sass "^4.11.0"
