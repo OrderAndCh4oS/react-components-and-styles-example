@@ -1113,10 +1113,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@orderandchaos/react-components@^0.5.7":
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/@orderandchaos/react-components/-/react-components-0.5.7.tgz#e05ee8389ac0bb6e79243437c50252557ae9da53"
-  integrity sha512-LFdhs25R7mpH/XRgt5emi77QBy2q2n5CYI8lw9lrY0bw3u/jwlFXFrznx0wNmmx75joDKRPs5EI/tz5qot9DAQ==
+"@orderandchaos/react-components@^0.5.14":
+  version "0.5.14"
+  resolved "https://registry.yarnpkg.com/@orderandchaos/react-components/-/react-components-0.5.14.tgz#6eb18be0e543d27853c38ac78dfb72b2c84f483e"
+  integrity sha512-dq2wrSfHtzbhYfUetvgy5R0XVgBfC8ePFSuEEEBfw0XN9OBlHxFbW4WeHLb4+TMPNwqHQ2uTrsuIsyCx0Z/enQ==
   dependencies:
     "@orderandchaos/styles" "^1.0.1"
     rc-slider "^8.6.9"
@@ -1129,10 +1129,10 @@
     modularscale-sass "^3.0.8"
     node-sass "^4.11.0"
 
-"@orderandchaos/styles@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@orderandchaos/styles/-/styles-2.0.0.tgz#9f825ff795ea385ee3a70ed1116f6b8da792915f"
-  integrity sha512-b34o7sNhpvTaSB2kKfvmU/mwmect/anloc8uZW0VQzG02+PQWTfd0hOFCjqspCXwzoGbp/NFluFgBtZDVp0W2w==
+"@orderandchaos/styles@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@orderandchaos/styles/-/styles-2.0.2.tgz#4609206f7c31b77de56d5929c3c2a3e8a286f1a5"
+  integrity sha512-nQ2O47CoqjmPUe0UlUXZ6HrF4QqCnbR5sBC7IAyIWyHZ6LxojL8bKOGWrHu6tdUwyUR3g+nqZyp2lUQHsP7Q6g==
   dependencies:
     modularscale-sass "^3.0.8"
     node-sass "^4.11.0"

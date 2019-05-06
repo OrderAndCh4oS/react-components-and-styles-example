@@ -14,6 +14,7 @@ import Buttons from './examples/Buttons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/pro-solid-svg-icons';
+import Image from './examples/Image';
 
 library.add(fab, fas);
 
@@ -50,6 +51,11 @@ function App() {
                 <Row>
                     <Column className='border--bottom'>
                         <Grid/>
+                    </Column>
+                </Row>
+                <Row>
+                    <Column className='border--bottom'>
+                        <Image/>
                     </Column>
                 </Row>
             </Container>
